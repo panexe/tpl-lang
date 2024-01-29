@@ -14,23 +14,19 @@ if value > 0
 else
     print "hello "
     set value = 1 at ƛ
-    resolve
 resolve
 ```
 
 
-Hello world:
+Endless loop printing hello
 ```tpl
 set value = 0
 time ƛ
-set value = 0
-time b
 if value > 0
     print "world"
 else
     print "hello "
-    set value = 0 at b
-    resolve
+    set value = 0 at ƛ
 resolve
 ```
 
