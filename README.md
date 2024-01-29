@@ -15,6 +15,7 @@ else
     print "hello "
     set value = 1 at ƛ
     resolve
+resolve
 ```
 
 
